@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.celebration-bg-image{
+    background-image: linear-gradient(rgba(211, 37, 75, 0.773), rgba(252, 236, 239, 0.362)),url('../images/Celebration.jpg');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    color: white;
+}
+
+.celebration-2{
+    /* background-image: url('../images/celebration-2.jpg'); */
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book-now-btn{
+     color: white; 
+     background-color: #fa2e7d;
+     padding: 10px 20px; 
+     border-radius: 20px;
+}
+.book-now-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #db0356;
+}
+
+
+.card-img1{
+    border: #989ba0 solid 10px;
+    width: 100%;
+    height: 50vh;
+}
+.card-img1:hover{
+    border: #989ba0 solid 10px;
+    background-color: #db0356;
+}
+
+.services-bgimage{
+        background-image: url('../images/addtional-service-bg-image.jpg');
+        width: 100%;
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
