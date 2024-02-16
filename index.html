@@ -11,7 +11,16 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <link rel="stylesheet" href="./owl.carousel.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" href="./owl.carousel.css" /> -->
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <title></title>
 </head>
 
@@ -19,11 +28,11 @@
   <section style="background-color: #0c0b0b">
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="/">
-        <img class="img-fluid" src="./assets/images/bigbanglogo.jpg" alt="bigbanglogo">
+        <img class="img-fluid logo" src="./assets/images/bigbanglogo.png" alt="bigbanglogo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img width="20" height="20" src="https://img.icons8.com/ios-filled/20/menu--v1.png" alt="menu--v1"></span>
+        <span class="navbar-toggler-icon"><img width="20" height="20" src="./assets/images/menu.png" alt="menu--v1"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,7 +46,7 @@
         </ul>
       </div>
       <div class="my-4">
-        <a href="tel:+918660195271" class="book-now-btn">+918660195271</a>
+        <a href="tel:+918660195271" class="book-now-btn"><img class="img-fluid" style="width: 40px; padding: 8px;" src="./assets/images/phone-call (2).png" alt=" call" srcset="">+918660195271</a>
       </div>
     </nav>
   </section>
@@ -131,9 +140,9 @@
 
 
     <div class="container-fluid pt-5" >
-      <div class="row">
+      <div class="row text-center">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
-          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
+          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 20rem; color: white; box-shadow: 0px 0px 10px 2px black;">
             <p class="d-flex justify-content-center h2 font-weight-bold" style="font-family: serif;">
               Special Decorations
             </p>
@@ -147,7 +156,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
-          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
+          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 20rem; color: white; box-shadow: 0px 0px 10px 2px black;">
             <p class="d-flex justify-content-center h2 font-weight-bold" style="font-family: serif;">
               Booking the theatre
             </p>
@@ -161,7 +170,7 @@
           </div>
         </div>
         <div class="col-lg-4 offset-col-md-6 col-sm-12 col-12 pt-3">
-          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
+          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 20rem; color: white; box-shadow: 0px 0px 10px 2px black;">
             <p class="d-flex justify-content-center h2 font-weight-bold" style="font-family: serif;">
               What can you watch?
             </p>
@@ -272,13 +281,53 @@
 <section >
   <div class="text-center">
   <h2 style="color: #ff2e55;">Our Gallery</h2>
-
+  <div class="brands-slider owl-carousel mt-4">
+    <div class="item" id="brandspace">
+      <img src="./assets/images/booknow-slider-1.jpg" alt="" srcset="">
+    </div>
+    <div class="item" id="brandspace">
+      <img src="./assets/images/booknow-slider-2.jpg" alt="" srcset="">
+    </div>
+    <div class="item" id="brandspace">
+      <img src="./assets/images/booknow-slider-5.jpg" alt="" srcset="">
+    </div>
+    <div class="item" id="brandspace">
+      <img src="./assets/images/booknow-slider-3.jpg" alt="" srcset="">
+    </div>
+    <div class="item" id="brandspace">
+      <img src="./assets/images/booknow-slider-4.jpg" alt="" srcset="">
+    </div>
+    <div class="item" id="brandspace">
+      <img src="./assets/images/Celebration.jpg" alt="" srcset="">
+    </div>
+    <div class="item" id="brandspace">
+      <img src="./assets/images/Couple Theater.jpg" alt="" srcset="">
+    </div>
   </div>
 </section>
 <section class="container-fluid">
-  <div class="text-center">
-    <h2>3D-PHOTO-REAL TATTOOS</h2>
-    <a href="/book-now.html" class="book-now-btn" style="text-decoration: none;">View all 3D-PHOTO-REAL TATTOOS</a>
+  <div class="text-center tattoo-bg">
+    <h2 class="pb-3 pt-3 text-white font-weight-bold">3D-PHOTO-REAL TATTOOS</h2>
+    <a href="./tattoos.html" class="book-now-btn" style="text-decoration: none; font-size: small; font-weight: bold;">View all 3D-PHOTO-REAL TATTOOS</a>
+  </div>
+  <div class="container-fluid pt-5 pb-3">
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12 pt-1">
+        <img class="img-fluid" style="width: 12.5rem; height: 13.5rem;  border: #ff0163 solid 5px;" src="./assets/images/tattoo-1.jpg" alt="" srcset="">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-12 pt-1">
+        <img class="img-fluid"  style="width: 12.5rem; height: 13.5rem;  border: #ff0163 solid 5px;" src="./assets/images/tattoo-2.jpg" alt="" srcset="">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-12 pt-1">
+        <img  class="img-fluid"  style="width: 12.5rem; height: 13.5rem; border: #ff0163 solid 5px;" src="./assets/images/tattoo-3.jpg" alt="" srcset="">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 pt-1">
+        <img class="img-fluid" style="width: 12.5rem; height: 13.5rem;  border: #ff0163 solid 5px;"  src="./assets/images/tattoo-4.jpg" alt="" srcset="">
+      </div>
+      <div class="col-lg-3 col-md-4  offset-col-sm-6 pt-1">
+        <img class="img-fluid"  style="width: 12.5rem; height: 13.5rem; border: #ff0163 solid 5px;"  src="./assets/images/tattoo-5.jpg" alt="" srcset="">
+      </div>
+    </div>
   </div>
 
 </section>
@@ -288,7 +337,7 @@
     <div class="row pt-5">
       <div class="col-md-6 col-sm-12 col-12 text-center">
         <div>
-          <img class="img-fluid " style="width: 40px;" src="./assets/images/pin.png" alt="" srcset="">
+          <img class="img-fluid " style="width: 40px;" src="./assets/images/maps-and-flags.png" alt="" srcset="">
           <p class="pt-3" style="text-decoration: none; color: #4b4f58;">THE BIG BANG CINE CELEBRATION No.15/72, Vatal Nagaraj Road, 59th Cross Rd, 4th Block, Rajajinagar, Bengaluru, Karnataka 560010	</p>
         </div>
         <div class="pt-4">
@@ -320,7 +369,12 @@
 <!-- <section>
   <img class="img-fluid" style="width: 50px; position: fixed; right: 30px;" src="./assets/images/chat.png" alt="chat" srcset="">
 </section> -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="./jqurry.js">
   $(".brands-slider").owlCarousel({
@@ -353,7 +407,7 @@
 
 
 </script>
-<script src="./owl.carousel.min.js"></script>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
