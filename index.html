@@ -16,15 +16,14 @@
 </head>
 
 <body>
-
   <section style="background-color: #0c0b0b">
-    <nav class="container  navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="/">
         <img class="img-fluid" src="./assets/images/bigbanglogo.jpg" alt="bigbanglogo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><img width="20" height="20" src="https://img.icons8.com/ios-filled/20/menu--v1.png" alt="menu--v1"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,13 +45,11 @@
 
   <section>
     <div class="celebration-bg-image d-flex flex-column justify-content-center align-items-center">
-      <div>
-        <p class="h2 text-center">WELCOME TO</p>
-      <p class="h2 text-center">THE BIG BANG CINE CELEBRATOIN</p>
-      <p class="h2 text-center">MINI PRIVATE THEATRE</p>
-      </div>
+     
+        <h2 class="text-center hometext">WELCOME TO<br>THE BIG BANG CINE CELEBRATOIN<br>MINI PRIVATE THEATRE</h2>
+        <div class="pt-4">
       <a href="/book-now.html" class="book-now-btn" style="text-decoration: none;">BOOK NOW</a>
-
+        </div>
     </div>
   </section>
 
@@ -94,7 +91,7 @@
     <div class="container-fluid pt-5">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
-          <div class="card text-white">
+          <div class="card text-light">
             <img class="card-img card-img1 img-fluid" src="./assets/images/event-1.jpg" alt="EVENTS IMAGE">
             <div class="card-img-overlay">
               <div class="d-flex justify-content-center h2 font-weight-bold">
@@ -117,7 +114,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
+        <div class="col-lg-4 offset-col-md-6 col-sm-12 col-12 pt-3">
           <div class="card text-white">
             <img class="card-img card-img1 img-fluid" src="./assets/images/event-3.jpg" alt="EVENTS IMAGE">
             <div class="card-img-overlay">
@@ -136,7 +133,7 @@
     <div class="container-fluid pt-5" >
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
-          <div style="background-image: url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
+          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
             <p class="d-flex justify-content-center h2 font-weight-bold" style="font-family: serif;">
               Special Decorations
             </p>
@@ -150,7 +147,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
-          <div style="background-image: url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
+          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
             <p class="d-flex justify-content-center h2 font-weight-bold" style="font-family: serif;">
               Booking the theatre
             </p>
@@ -163,8 +160,8 @@
           </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
-          <div style="background-image: url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
+        <div class="col-lg-4 offset-col-md-6 col-sm-12 col-12 pt-3">
+          <div class="p-4" style="background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),url(./assets/images/event-3.jpg); width: 100%; height: 15rem; color: white; box-shadow: 0px 0px 10px 2px black;">
             <p class="d-flex justify-content-center h2 font-weight-bold" style="font-family: serif;">
               What can you watch?
             </p>
@@ -192,7 +189,7 @@
 </div>
 
     </div>
-    <div class="col-md-6 col-sm-12 col-12 p-5">
+    <div class="col-md-6 col-sm-12 col-12 pt-5">
       <h2 class="font-weight-bold" style="font-family: serif; text-align: center;">Additional Services</h2>
       <p class="pt-4" style="font-family: serif; font-size: 20px;"><b>Snacks And Beverages </b>– Popcorn, Maggie, Chips, French Fries, Nuggets, Soft drinks, Milkshakes, etc</p>
       <p style="font-family: serif; font-size: 20px;"><b>Cakes</b> – You can choose cake while booking the slot.</p>
@@ -332,9 +329,9 @@
     margin: 20,
     autoplay: true,
     slideSpeed: 200,
-    nav: false,
-    dots: false,
-    center: false,
+    nav: true,
+    dots: true,
+    center: true,
     responsive: {
       0: {
         items: 1,

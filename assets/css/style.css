@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+.hometext{
+    font-size: 80px;
+}
 .celebration-bg-image{
     background-image: linear-gradient(rgba(211, 37, 75, 0.773), rgba(252, 236, 239, 0.362)),url('../images/Celebration.jpg');
     width: 100%;
@@ -35,15 +38,25 @@
 
 
 .card-img1{
-    border: #989ba0 solid 10px;
+    border: #ff0163 solid 10px;
     width: 100%;
     height: 50vh;
+    transition: all .3s ease-in-out;
+
 }
 .card-img1:hover{
-    border: #989ba0 solid 10px;
+    border: #7c0030 solid 10px;
     background-color: #db0356;
 }
-
+.card-img-overlay{
+    position: absolute;
+    top: unset !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+  
+  }
 .services-bgimage{
         background-image: url('../images/addtional-service-bg-image.jpg');
         width: 100%;
@@ -52,4 +65,40 @@
         background-repeat: no-repeat;
         background-size: cover;
         
+}
+
+@media (max-width:1200px){
+    .hometext{
+        font-size: 80px;
+    }
+}
+@media (max-width:1200px){
+    .hometext{
+        font-size: 70px;
+    }
+}
+@media (max-width:900px){
+    .hometext{
+        font-size: 65px;
+    }
+}
+@media (max-width:768px){
+    .hometext{
+        font-size: 50px;
+    }
+}
+@media (max-width:768px){
+    .hometext{
+        font-size: 45px;
+    }
+}
+@media (max-width:425px){
+    .hometext{
+        font-size: 40px;
+    }
+}
+@media (max-width:320px){
+    .hometext{
+        font-size: 30px;
+    }
 }
