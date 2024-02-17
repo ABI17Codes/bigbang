@@ -96,14 +96,16 @@
 .owl-prev span{
     font-size: 80px;
     position: relative;
+    color: white;
     top: -240px;
-    left: -30px;
+    left: 15px;
 }
 .owl-next span{
     font-size: 80px;
     position: relative;
+    color: white;
     top: -240px;
-    right: -30px;
+    right: 15px;
 }
 
 
